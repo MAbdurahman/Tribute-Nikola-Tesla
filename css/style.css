@@ -369,7 +369,7 @@ address a:hover {
 
     blockquote {
         border: 2px solid #1b6d85;
-        font-size: 13px;
+        font-size: 12px;
         font-style: oblique;
         text-align: center;
         margin-top: 3%;
@@ -384,7 +384,7 @@ address a:hover {
     }
 
     .refer-reader a {
-        font-size: 12px;
+        font-size: 11px;
         margin-top: 3%;
 
     }
