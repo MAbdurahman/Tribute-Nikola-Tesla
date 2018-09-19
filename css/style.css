@@ -1,0 +1,407 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-----------Tribute to Nikola Tesla Stylesheet Begins -----------------*/
+
+html {
+    font-size: 24px;
+
+}
+
+body {
+    font-family: Garamond, Arial, Helvetica;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: #B0B0B0;
+
+}
+
+.jumbotron.text-center {
+    background: #B0B0B0;
+    margin-bottom: 0;
+}
+
+#heading-title {
+    text-transform: uppercase;
+    font-family: Garamond, Arial, Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 13px;
+    padding-bottom: 3%;
+}
+
+#heading-sub-title {
+    text-transform: capitalize;
+    font-family: Garamond, Arial, Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-bottom: 2%;
+}
+
+#caption {
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+#time-line {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+ul.align-left {
+    text-align: left;
+    list-style: square outside;
+    margin-left: -15%;
+    margin-right: -15%;
+}
+
+ul.align-left li {
+    font-weight: 500;
+    line-height: 1.125em;
+}
+
+.bold {
+    color: black;
+    font-weight: 700;
+}
+
+blockquote {
+    border: 2px solid #1b6d85;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.refer-reader {
+    margin-top: 3%;
+
+}
+
+.refer-reader a {
+    font-weight: 500;
+
+}
+
+address {
+    font-style: oblique;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
+
+address a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0f0f0f;
+
+}
+
+address a:hover {
+    text-decoration: none;
+    color: #1b6d85;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    margin-right: 2%;
+    border-radius: 5px;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#back2Top:hover {
+    background-color: #DDF;
+    background-color: #1b6d85;
+    color: #000;
+    color: #ffffff;
+
+}
+
+/*-------------------Standard Media Queries Breakpoints for Bootstrap version 3---------------------*/
+@media all and (max-width: 991px) {
+    body {
+        background: #B0B0B0;
+
+    }
+
+    blockquote {
+        border: 2px solid #1b6d85;
+        font-size: 20px;
+        font-style: oblique;
+        text-align: center;
+        margin-top: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    html {
+        font-size: 24px;
+
+    }
+
+    body {
+        font-family: Garamond, Arial, Helvetica;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        background: #B0B0B0;
+
+    }
+
+    #heading-title {
+        text-transform: uppercase;
+        font-family: Garamond, Arial, Helvetica;
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: 8px;
+        padding-bottom: 3%;
+
+    }
+
+    #heading-sub-title {
+        text-transform: capitalize;
+        font-family: Garamond, Arial, Helvetica;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        padding-bottom: 2%;
+
+    }
+
+    #caption {
+        letter-spacing: 2px;
+        font-weight: 700;
+        padding-bottom: 2%;
+
+    }
+
+    #time-line {
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        text-decoration: underline;
+        text-underline-position: under;
+
+    }
+
+    ul.align-left {
+        text-align: left;
+        font-size: 18px;
+        list-style: square outside;
+        margin-left: -8%;
+        margin-right: -8%;
+
+    }
+
+    blockquote {
+        border: 2px solid #1b6d85;
+        font-size: 18px;
+        font-style: oblique;
+        text-align: center;
+        margin-top: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+    .refer-reader a {
+        font-size: 18px;
+
+    }
+
+    address {
+        font-size: 18px;
+        font-style: oblique;
+        text-align: left;
+        padding-top: .50em;
+        border-top: thin dotted;
+
+    }
+
+    address a {
+        font-size: 18px;
+        color: #0f0f0f;
+
+    }
+}
+
+@media all and (max-width: 480px) {
+    html {
+        font-size: 24px;
+
+    }
+
+    body {
+        font-family: Garamond, Arial, Helvetica;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        background: #B0B0B0;
+
+    }
+
+    #heading-title {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 13px;
+        padding-bottom: 3%;
+    }
+
+    #heading-sub-title {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        padding-bottom: 2%;
+    }
+
+    #caption {
+        font-size: 11px;
+        letter-spacing: 3px;
+        font-weight: 700;
+        padding-bottom: 2%;
+    }
+
+    #time-line {
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-decoration: underline;
+        text-underline-position: under;
+
+    }
+
+    ul.align-left {
+        font-size: 14px;
+        text-align: left;
+        list-style: square outside;
+        margin-left: -13%;
+        margin-right: -13%;
+
+    }
+
+    blockquote {
+        border: 2px solid #1b6d85;
+        font-size: 13px;
+        font-style: oblique;
+        text-align: center;
+        margin-top: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+    p.refer-reader {
+        margin-bottom: 0;
+
+    }
+
+    .refer-reader a {
+        font-size: 12px;
+        margin-top: 3%;
+
+    }
+
+    address {
+        font-size: 14px;
+        font-style: oblique;
+        text-align: left;
+        padding-top: .50em;
+        border-top: thin dotted;
+
+    }
+
+    address a {
+        font-size: 14px;
+        color: #0f0f0f;
+
+    }
+}
+
